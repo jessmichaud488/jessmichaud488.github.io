@@ -1,0 +1,268 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+
+.bgimg-1, .bgimg-2, .bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+.bgimg-1 {
+  background-image: url("Images/CatStaring.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-image: url("Images/ChineseFood.jpg");
+  min-height: 400px;
+}
+
+.bgimg-3 {
+  background-image: url("Images/RedAmsterdam.jpg");
+  min-height: 400px;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption span.border {
+  background-color: #111;
+  color: #fff;
+  text-shadow: 2px 2px 4px #818181;
+  padding: 18px;
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+#about-inner-div {
+  color: #777;
+  background-color:white;
+  text-align: center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+#about-inner-div h3 {
+  text-align: center;
+}
+
+#about-inner-div p {
+  text-align: center;
+}
+
+#work-div {
+  margin-left: auto;
+  margin-right: auto;
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 400px;
+  text-align: center;
+}
+
+#work-div h3 {
+  color: white;
+}
+
+#contact-div-main {
+  position:relative;
+}
+
+#contact-div-inner {
+  color:#ddd;
+  background-color:#282E34;
+  text-align:center;
+  padding:50px 80px;
+  text-align: justify;
+}
+
+#contact-div-inner h3 {
+  text-align:center;
+  color: white;
+}
+
+form {
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+form input {
+  text-shadow: 2px 2px 4px #000000;
+}
+
+#votes {
+  margin-bottom: 100px;
+}
+
+#patterns {
+  margin-bottom: 100px;
+}
+
+#rank {
+  margin-bottom: 100px;
+}
+
+#adventure {
+  margin-bottom: 100px;
+}
+
+.live-link {
+  margin-right: 20px;
+}
+
+.repo-link {
+  margin-left: 20px;
+}
+
+.live-link:hover {
+    background: url("Images/eye-red.png") no-repeat;
+}
+
+.repo-link:hover {
+    background: url("Images/github-sign-red.png") no-repeat;
+}
+
+h3 {
+  letter-spacing: 5px;
+  text-transform: uppercase;
+  font: 20px "Lato", sans-serif;
+  color: #111;
+}
+
+.image {
+  height: 35vh;
+  width: 25vw;
+}
+
+.sidebar {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: transparent;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.sidebar a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #f1f1f1;
+  text-shadow: 2px 2px 4px #000000;
+  display: block;
+}
+
+.sidebar a:hover {
+  color: rgb(207, 0, 30);
+}
+
+.sidebar>a{
+  border-right: 1px solid #000;
+}
+
+.sidebar>a:last-child{
+  border: none;
+}
+
+.main {
+  margin-left: 160px;
+  padding: 0px 10px;
+}
+
+.btn {
+  font-family: "Lato", sans-serif;
+  border: none;
+  display: inline-block;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  color: #fff;
+  font-weight: 700;
+  font-size: 15px;
+  text-shadow: 2px 2px 4px #000000;
+  background-color: rgb(207, 0, 30);
+  padding: 17px 60px;
+  margin: 10px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.20);
+}
+
+.btn span {
+  position: relative; 
+  z-index: 1;
+}
+
+.btn:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 490%;
+  width: 140%;
+  background: rgb(228, 1, 35);
+  text-shadow: 2px 2px 4px #000000;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
+  -webkit-transform: translateX(-98%) translateY(-25%) rotate(45deg);
+  transform: translateX(-98%) translateY(-25%) rotate(45deg);
+}
+
+.btn:hover:after {
+  -webkit-transform: translateX(-9%) translateY(-25%) rotate(45deg);
+  transform: translateX(-9%) translateY(-25%) rotate(45deg);
+}
+
+.verticalbar {
+  height: 160px;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+  margin-left: 100px;
+  bottom: 0;
+  right: 0;
+  background-color: transparent;
+  overflow-x: hidden;
+  padding-top: 16px;
+}
+
+.verticalbar a {
+  padding: 96px 36px 6px 16px;
+  display: inline-block;
+}
+
+.verticalbar img {
+  height: 50px;
+  width: 50px;
+}
+
+/* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
+@media screen and (max-height: 450px) {
+  .sidebar {padding-top: 15px;}
+  .sidebar a {font-size: 18px;}
+}
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  .bgimg-1, .bgimg-2, .bgimg-3 {
+    background-attachment: scroll;
+  }
+}
