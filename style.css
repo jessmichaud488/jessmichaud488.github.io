@@ -236,7 +236,7 @@ h3 {
   width: 100%;
   position: relative;
   z-index: 1;
-  margin-left: 100px;
+  margin-left: 20px;
   bottom: 0;
   right: 0;
   background-color: transparent;
@@ -252,6 +252,27 @@ h3 {
 .verticalbar img {
   height: 50px;
   width: 50px;
+}
+
+.mySlides {
+  display: none;
+}
+
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
 }
 
 /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
