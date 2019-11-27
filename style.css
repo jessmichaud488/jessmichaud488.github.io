@@ -58,14 +58,14 @@ body, html {
   padding:50px 80px;
 }
 
-#work-div {
+#work-inner-div {
   color:#ddd;
   background-color:#282E34;
   text-align:center;
   padding:50px 400px;
 }
 
-#work-div h3 {
+#work-inner-div h3 {
   color: white;
 }
 
@@ -73,7 +73,7 @@ body, html {
   position:relative;
 }
 
-#contact-div-inner {
+#contact-inner-div {
   color:#ddd;
   background-color:#282E34;
   text-align:center;
@@ -81,7 +81,7 @@ body, html {
   text-align: justify;
 }
 
-#contact-div-inner h3 {
+#contact-inner-div h3 {
   text-align:center;
   color: white;
 }
