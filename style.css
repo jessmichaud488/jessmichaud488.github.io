@@ -1,21 +1,22 @@
 body, html {
   text-align: center;
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
 }
 
 .bgimg-1, .bgimg-2, .bgimg-3 {
+  width: 100%;
   position: relative;
   opacity: 0.65;
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
+
 .bgimg-1 {
   background-image: url("Images/CatStaring.jpg");
   min-height: 100%;
@@ -71,6 +72,7 @@ body, html {
 
 #contact-div-main {
   position:relative;
+  width: 100%;
 }
 
 #contact-inner-div {
@@ -94,22 +96,6 @@ form {
 
 form input {
   text-shadow: 2px 2px 4px #000000;
-}
-
-#votes {
-  margin-bottom: 100px;
-}
-
-#patterns {
-  margin-bottom: 100px;
-}
-
-#rank {
-  margin-bottom: 100px;
-}
-
-#adventure {
-  margin-bottom: 100px;
 }
 
 .live-link {
