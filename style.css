@@ -150,7 +150,7 @@ h3 {
 }
 
 .sidebar a:hover {
-  color: rgb(207, 0, 30);
+  color: rgb(230, 4, 5);
 }
 
 .sidebar>a{
@@ -180,7 +180,7 @@ h3 {
   font-weight: 700;
   font-size: 15px;
   text-shadow: 2px 2px 4px #000000;
-  background-color: rgb(207, 0, 30);
+  background-color: rgb(230, 4, 5);
   padding: 17px 60px;
   margin: 10px;
   box-shadow: 0 5px 15px rgba(0,0,0,0.20);
