@@ -18,17 +18,17 @@ body, html {
 }
 
 .bgimg-1 {
-  background-image: url("Images/CatStaring.jpg");
+  background-image: url("Images/CatStaring.png");
   min-height: 100%;
 }
 
 .bgimg-2 {
-  background-image: url("Images/RedChinatown.jpg");
+  background-image: url("Images/RedChinatown.png");
   min-height: 400px;
 }
 
 .bgimg-3 {
-  background-image: url("Images/RedLights.jpeg");
+  background-image: url("Images/RedLights.png");
   min-height: 400px;
 }
 
