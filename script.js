@@ -1,29 +1,22 @@
-var slideIndex = 0;
-showSlides();
+var slideIndex = [1,1,1,1];
+/* Class the members of each slideshow group with different CSS classes */
+var slideId = ["votes", "rank", "patterns", "adventure"]
+showSlides(1, 0);
+showSlides(1, 1);
+showSlides(1, 2);
+showSlides(1, 3);
 
-function showSlides() {
-  var i;
-  var slides = document.getElementsByClassName("votes");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
-  }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000);
+function plusSlides(n, no) {
+  showSlides(slideIndex[no] += n, no);
 }
 
-var slideIndex = 0;
-showSlides();
-
-function showSlides() {
+function showSlides(n, no) {
   var i;
-  var slides = document.getElementsByClassName("rank");
-  for (i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+  var x = document.getElementsByClassName(slideId[no]);
+  if (n > x.length) {slideIndex[no] = 1}
+  if (n < 1) {slideIndex[no] = x.length}
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
   }
-  slideIndex++;
-  if (slideIndex > slides.length) {slideIndex = 1}
-  slides[slideIndex-1].style.display = "block";
-  setTimeout(showSlides, 2000);
+  x[slideIndex[no]-1].style.display = "block";
 }
