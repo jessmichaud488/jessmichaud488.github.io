@@ -110,18 +110,20 @@ input {
 
 .live-link {
   margin-right: 20px;
+  background: none;
 }
 
 .repo-link {
   margin-left: 20px;
+  background: none;
 }
 
 .live-link:hover {
-    background: url("Images/eye-red.png") no-repeat;
+    background: rgb(207, 0, 30);
 }
 
 .repo-link:hover {
-    background: url("Images/github-sign-red.png") no-repeat;
+  background: rgb(207, 0, 30);
 }
 
 h3 {
