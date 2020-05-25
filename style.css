@@ -109,21 +109,19 @@ input {
 }
 
 .live-link {
-  background-image: url("Images/eye.png");
   margin-right: 20px;
 }
 
 .repo-link {
-  background-image: url("Images/github-sign.png");
   margin-left: 20px;
 }
 
 .live-link:hover {
-    background-image: url("Images/eye-red.png");
+    background: url("Images/eye-red.png") no-repeat;
 }
 
 .repo-link:hover {
-    background-image: url("Images/github-sign-red.png");
+    background: url("Images/github-sign-red.png") no-repeat;
 }
 
 h3 {
