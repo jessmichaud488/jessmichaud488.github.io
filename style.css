@@ -116,6 +116,55 @@ input {
   margin-left: 20px;
 }
 
+.flip-container {
+  perspective: 1000;
+  display: inline-block;
+}
+
+.flip-container:hover .card {
+  transform: rotateY(180deg);
+}
+
+.card {
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  position: relative;
+}
+
+.front-eye, .back-eye {
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.front-eye {
+  z-index: 1;
+  transform: rotateY(180deg);
+  background: url("Images/eye-sign.png") no-repeat;
+}
+
+.back-eye {
+  z-index: 2;
+  transform: rotateY(0deg);
+  background: url("Images/eye-sign-red.png") no-repeat;
+}
+
+.front-github, .back-github {
+  backface-visibility: hidden;
+  position: absolute;
+}
+
+.front-github {
+  z-index: 1;
+  transform: rotateY(180deg);
+  background: url("Images/github-sign.png") no-repeat;
+}
+
+.back-github {
+  z-index: 2;
+  transform: rotateY(0deg);
+  background: url("Images/github-sign-red.png") no-repeat;
+}
+
 h3 {
   letter-spacing: 5px;
   text-transform: uppercase;
