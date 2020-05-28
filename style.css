@@ -108,20 +108,23 @@ input {
   text-align: center;
 }
 
-.live-link {
+.flip-container-eye {
   margin-right: 20px;
-}
-
-.repo-link {
-  margin-left: 20px;
-}
-
-.flip-container {
   perspective: 1000;
   display: inline-block;
 }
 
-.flip-container:hover .card {
+.flip-container-eye:hover .card {
+  transform: rotateY(180deg);
+}
+
+.flip-container-github {
+  margin-left: 20px;
+  perspective: 1000;
+  display: inline-block;
+}
+
+.flip-container-github:hover .card {
   transform: rotateY(180deg);
 }
 
