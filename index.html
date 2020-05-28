@@ -242,7 +242,6 @@ window.addEventListener("DOMContentLoaded", function() {
   var form = document.getElementById("contact-form");
   var button = document.getElementById("contact-form-button");
   var status = document.getElementById("contact-form-status");
-  var clear = document.getElementById("reset-form-status");
   
   function success() {
     form.reset();
@@ -251,12 +250,8 @@ window.addEventListener("DOMContentLoaded", function() {
   }
 
   function startOver() {
-    form.reset(clear);
+  document.getElementById("reset-form-status").reset();
   }
-
-  function myFunction() {
-  document.getElementById("myForm").reset();
-}
 
   function error() {
     status.innerHTML = "Oops! There was a problem.";
@@ -267,7 +262,7 @@ window.addEventListener("DOMContentLoaded", function() {
   form.addEventListener("submit", function(ev) {
     ev.preventDefault();
     var data = new FormData(form);
-    ajax(form.method, form.action, data, success, startOver, error);
+    ajax(form.method, form.action, data, success, error);
   });
 });
 
