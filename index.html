@@ -215,6 +215,7 @@
         type="reset" 
         class="btn"
         id="reset-form-button"
+        onclick="startOver()"
       >
         <span>Reset</span>
       </button>
@@ -250,7 +251,7 @@ window.addEventListener("DOMContentLoaded", function() {
   }
 
   function startOver() {
-    document.getElementById("reset-form-button").reset();
+    document.getElementById("contact-form").reset();
   }
 
   function error() {
