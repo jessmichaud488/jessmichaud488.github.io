@@ -251,8 +251,12 @@ window.addEventListener("DOMContentLoaded", function() {
   }
 
   function startOver() {
-    form.reset();
+    form.reset(clear);
   }
+
+  function myFunction() {
+  document.getElementById("myForm").reset();
+}
 
   function error() {
     status.innerHTML = "Oops! There was a problem.";
