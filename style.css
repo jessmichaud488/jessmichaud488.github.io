@@ -109,21 +109,40 @@ input {
 }
 
 .live-link {
-  background: url("Images/eye.png") no-repeat;
   margin-right: 20px;
 }
 
 .repo-link {
-  background: url("Images/github-sign.png") no-repeat;
   margin-left: 20px;
 }
 
-.live-link:hover {
-    background: url("Images/eye-red.png") no-repeat;
+.links {
+  width: 130px;
+  height: 195px;
+  position: relative;
+  display: inline-block;
 }
 
-.repo-link:hover {
-    background: url("Images/github-sign-red.png") no-repeat;
+.links .red-link-eye {
+  margin-right: 20px;
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.links:hover .red-link-eye {
+  display: inline;
+}
+
+.links .red-link-github {
+  margin-left: 20px;
+  display: none;
+  position: absolute;
+  z-index: 99;
+}
+
+.links:hover .red-link-github {
+  display: inline;
 }
 
 h3 {
