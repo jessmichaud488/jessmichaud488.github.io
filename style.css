@@ -129,7 +129,7 @@ h3 {
   height: 100%;
 }
 
-.sidebar {
+.sidebar ul {
   height: 100%;
   width: 160px;
   position: fixed;
@@ -141,7 +141,7 @@ h3 {
   padding-top: 16px;
 }
 
-.sidebar a {
+.sidebar li a {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
   font-size: 20px;
@@ -150,15 +150,15 @@ h3 {
   display: block;
 }
 
-.sidebar a:hover {
+.sidebar li a:hover {
   color: rgb(230, 4, 5);
 }
 
-.sidebar>a{
+.sidebar > li a{
   border-right: 1px solid #000;
 }
 
-.sidebar>a:last-child{
+.sidebar > li a:last-child{
   border: none;
 }
 
