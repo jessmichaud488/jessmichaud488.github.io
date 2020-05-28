@@ -109,10 +109,12 @@ input {
 }
 
 .live-link {
+  background: url("Images/eye.png") no-repeat;
   margin-right: 20px;
 }
 
 .repo-link {
+  background: url("Images/github-sign.png") no-repeat;
   margin-left: 20px;
 }
 
@@ -257,7 +259,7 @@ h3 {
   cursor: pointer;
   position: relative;
   top: 50%;
-  padding: 5px 10px;
+  padding: 16px;
   margin-top: -22px;
   color: white;
   font-weight: bold;
