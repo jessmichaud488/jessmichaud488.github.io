@@ -210,15 +210,6 @@
       >
         <span>Email Me!</span>
       </button>
-
-      <button 
-        type="reset" 
-        class="btn"
-        id="reset-form-button"
-        onclick="startOver()"
-      >
-        <span>Reset</span>
-      </button>
   
       <p id="contact-form-status"></p>
     </form>
@@ -248,10 +239,6 @@ window.addEventListener("DOMContentLoaded", function() {
     form.reset();
     button.style = "display: none ";
     status.innerHTML = "Thanks!";
-  }
-
-  function startOver() {
-    document.getElementById("contact-form").reset();
   }
 
   function error() {
