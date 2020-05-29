@@ -5,8 +5,14 @@
 
 body, html {
   text-align: center;
-  width: 100%;
-  height: 100%;
+  top: 0px;
+  min-height: calc(100vh - 0px);
+  height: 1848px;
+  width: 1366px;
+  overflow-x: auto;
+  overflow-y: scroll;
+  /*width: 100%;
+  height: 100%;*/
   margin: 0;
   font: 400 15px/1.8 "Lato", sans-serif;
   color: #777;
