@@ -33,18 +33,18 @@
 
   @media screen and (min-width: 360px) and (max-width: 374px) and (min-height: 639px) and (max-height: 640px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
-      /*padding: 25px 411px;*/
+      padding: 25px 411px;
       width: 100%;
     }
 
     #about-inner-div {     
       margin: 100px;   
-      /*padding: 50px 85px;*/
+      padding: 50px 85px;
       text-align: center;
     }
 
     #work-inner-div {
-      /*padding: 25px 411px;*/
+      padding: 25px 411px;
       text-align: center;
     }
 
