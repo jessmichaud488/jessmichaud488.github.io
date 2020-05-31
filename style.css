@@ -56,12 +56,10 @@ body, html {
 }
 
 #about-inner-div {
-  margin-left: auto;
-  margin-right: auto;
   color: #777;
   background-color:white;
   text-align: center;
-  padding:50px 80px;
+  padding:50px 400px;
 }
 
 #work-inner-div {
