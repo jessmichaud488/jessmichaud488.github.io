@@ -1,10 +1,11 @@
+<<<<<<< HEAD
 /* Add media queries for small screens (when the height of the screen is less than 450px, add a smaller padding and font-size) */
 @media screen and (max-height: 450px) {
   .sidebar {padding-top: 15px;}
   .sidebar a {font-size: 18px;}
 }
 
-/*Turn off parallax scrolling for tablets and phones
+/*Turn off parallax scrolling for tablets and phones*/
 @media only screen and (max-device-width: 1024px) {
   .bgimg-1, .bgimg-2, .bgimg-3 {
     background-attachment: scroll;
@@ -32,11 +33,12 @@
 
   @media screen and (min-width: 360px) and (max-width: 374px) and (min-height: 639px) and (max-height: 640px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
-      width: 150%;
+      width: 147%;
     }
 
     #about-inner-div {     
       margin: 100px;   
+      padding: 50px 85px;
       text-align: center;
     }
 
