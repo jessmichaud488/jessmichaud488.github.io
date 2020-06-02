@@ -12,7 +12,7 @@
 }*/
 
 @media screen and (min-width: 360px) and (max-width: 374px) and (min-height: 639px) and (max-height: 640px) {
-    .bgimg-1, .bgimg-2, .bgimg-3 {
+    body, html {
       width: 222%;
     }
 
@@ -42,7 +42,6 @@
     }
 
     #contact-inner-div {
-      width: 222%;
       padding: 50px 90px;
   }
   }
