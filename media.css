@@ -16,6 +16,10 @@
       width: 225%;
     }
 
+    #about-inner-div {
+      padding: 5px 40px;
+    }
+    
     #about-inner-div h3{
       font-size: 32px;
     }
