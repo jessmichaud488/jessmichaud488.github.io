@@ -30,6 +30,10 @@
       margin-left: 300px;
     }
 
+    #work-inner-div {
+      width: 225%;
+    }
+
     #work-inner-div h3{
       font-size: 32px;
     }
@@ -56,7 +60,7 @@
     }
 
     #contact-inner-div {
-      width: 222%;
+      width: 225%;
       padding: 50px 90px;
   }
   }
