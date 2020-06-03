@@ -22,10 +22,12 @@
     
     #about-inner-div h3{
       font-size: 32px;
+      margin-left: 300px;
     }
 
     #about-inner-div p {
       font-size: 24px;
+      margin-left: 300px;
     }
 
     #work-inner-div h3{
