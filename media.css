@@ -13,15 +13,22 @@
 
 @media screen and (min-width: 360px) and (max-width: 374px) and (min-height: 639px) and (max-height: 640px) {
     .bgimg-1, .bgimg-2, .bgimg-3 {
-      width: 222%;
+      width: 225%;
     }
 
-    #about-inner-div { 
-      text-align: center;
+    #about-inner-div h3{
+      font-size: 32px;
+    }
+
+    #about-inner-div p {
+      font-size: 24px;
+    }
+
+    #work-inner-div h3{
+      font-size: 32px;
     }
 
     #work-inner-div p {
-      width: 222%;
       font-size: 24px;
     }
 
